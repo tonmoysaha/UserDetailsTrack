@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Solid - Bootstrap Business Template</title>
+<title>${title}</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="" name="keywords">
 <meta content="" name="description">
@@ -58,7 +58,8 @@
 						href="${pageContext.request.contextPath}/userController?page=userlist">User
 							List</a></li>
 					<li><a
-						href="${pageContext.request.contextPath}/userController?page=logout">Log Out</a></li>
+						href="${pageContext.request.contextPath}/userController?page=logout">Log
+							Out</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
